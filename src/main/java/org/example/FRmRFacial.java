@@ -15,8 +15,8 @@ public class FRmRFacial {
 
     public static void main(String[] args) {
         FRmRFacial ventanaPrincipal = new FRmRFacial();
-        JFrame ventana = new JFrame("Ventana Principal");
-        ventana.setContentPane(ventanaPrincipal.getPanel()); // Aquí se usa el panel de la misma instancia
+        JFrame ventana = new JFrame("Ventana Reconnocimiento Facial");
+        ventana.setContentPane(ventanaPrincipal.getPanel());
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.pack();
         ventana.setVisible(true);
